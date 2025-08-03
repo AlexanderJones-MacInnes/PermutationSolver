@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1754226173 source:e:\documents\codestuff\c++\software\permutationsolver\main.cpp
-	<iostream>
-	<list>
-	<vector>
-	<cmath>
-
