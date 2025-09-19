@@ -9,10 +9,11 @@ int main(int argc, char* argv[])
     string helpText =
 "\nThis program finds all permutations for a set of N strings.\n\
 Additionally the following arguments can be entered...\n\n\
-'<string/text>' Any generic text that is not one of the commands below will be treated as part of the set.\n\
+'<string/text>' Any generic text that is not one of the commands below will be treated as part of the set during calculation.\n\
 '/help' will display this text.\n\
-'/d <char>' will use <char> as a delimiter to seperate a single-string input into multiple items.\n\
+'/d <char>' will use <char> as a delimiter to separate a single-string input into multiple items.\n\
 '/t <path>' will write output to a text file at the location of <path>\n\n\
+'/s' will run the program without printing output to stdout.\n\
 Arguments can be entered in any order...";
 
     char delimiter = false;
