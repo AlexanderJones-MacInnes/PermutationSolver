@@ -6,6 +6,10 @@ namespace permutations
 {
     struct Member;
     int Factorial(int);
+    std::vector<std::string> SolvePermutations(std::list<Member> members);
+    std::vector<std::string> SolvePermutations(std::string str);
+    std::vector<std::string> SolvePermutations(std::list<std::string> lstr);
+    std::vector<std::string> SolvePermutations(std::vector<std::string> vstr);
 
     struct Member
     {
